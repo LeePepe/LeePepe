@@ -32,9 +32,6 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | Voice-to-text for macOS/iOS · AI refinement via Apple Intelligence · deterministic undo/redo |
-| [**Helix**](https://github.com/LeePepe/Helix) | VS Code extension · compare Figma designs vs code · generate production components |
-| [**CodeAnalyzer**](https://github.com/LeePepe/CodeAnalyzer) | VS Code extension · LLM-powered PR analysis for GitHub & Azure DevOps |
 | [**xcode-mcp-server**](https://github.com/LeePepe/xcode-mcp-server) | MCP server · deep Xcode integration for AI assistants |
 
 ---
