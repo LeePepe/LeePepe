@@ -32,7 +32,8 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**xcode-mcp-server**](https://github.com/LeePepe/xcode-mcp-server) | MCP server · deep Xcode integration for AI assistants |
+| [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
+| [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 
 ---
 
