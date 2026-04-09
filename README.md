@@ -34,6 +34,11 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 |---|---|
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
+| [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill · orchestrate planning, review, and execution across coding agents |
+| [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for local Copilot CLI workflows · rescue tasks and code review |
+| [**local-agent-reviewer**](https://github.com/LeePepe/local-agent-reviewer) | AI-powered PR code review via local agent CLI and GitHub Actions |
+| [**Aing**](https://github.com/LeePepe/Aing) | macOS notification bridge for AI coding CLIs |
+| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: Accessibility, snapshots, performance, and vision eval |
 
 ---
 
