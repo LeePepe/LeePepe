@@ -32,9 +32,9 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
 | [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**Smashtag**](https://github.com/LeePepe/Smashtag) | — |
