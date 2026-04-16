@@ -32,11 +32,12 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**Smashtag**](https://github.com/LeePepe/Smashtag) | — |
 | [**Sicily**](https://github.com/LeePepe/Sicily) | 个人soj库 |
 | [**SetGame**](https://github.com/LeePepe/SetGame) | CS193P IOS APPLICATION DEVELOPMENT Assignment II: Set |
@@ -53,7 +54,6 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | [**Concentration**](https://github.com/LeePepe/Concentration) | CS193P IOS Application Development Assignment I: Concentration |
 | [**Compiler**](https://github.com/LeePepe/Compiler) | learning Compiler |
 | [**Calculator**](https://github.com/LeePepe/Calculator) | Assignment 1 and 2 of CS193P IOS APPLICATION DEVELOPMENT of Stanford University in Spring 2016 |
-| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**Aing**](https://github.com/LeePepe/Aing) | A standalone notification bridge for AI coding CLIs — get macOS notifications when Claude, Codex, OpenCode, or Copilot needs you |
 
 ---
