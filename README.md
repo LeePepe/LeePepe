@@ -32,13 +32,13 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**pew**](https://github.com/LeePepe/pew) | 🦓 The contribution graph for AI-native developers — track and visualize your token usage across coding tools |
 | [**Aing**](https://github.com/LeePepe/Aing) | A standalone notification bridge for AI coding CLIs — get macOS notifications when Claude, Codex, OpenCode, or Copilot needs you |
 | [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
 | [**Smashtag**](https://github.com/LeePepe/Smashtag) | — |
