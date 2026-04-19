@@ -33,14 +33,14 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | project | description |
 |---|---|
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
+| [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**pew**](https://github.com/LeePepe/pew) | 🦓 The contribution graph for AI-native developers — track and visualize your token usage across coding tools |
 | [**Aing**](https://github.com/LeePepe/Aing) | A standalone notification bridge for AI coding CLIs — get macOS notifications when Claude, Codex, OpenCode, or Copilot needs you |
-| [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
-| [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
 | [**Smashtag**](https://github.com/LeePepe/Smashtag) | — |
 | [**Sicily**](https://github.com/LeePepe/Sicily) | 个人soj库 |
 | [**SetGame**](https://github.com/LeePepe/SetGame) | CS193P IOS APPLICATION DEVELOPMENT Assignment II: Set |
