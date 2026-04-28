@@ -32,10 +32,11 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
+| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
@@ -45,7 +46,6 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | [**Sicily**](https://github.com/LeePepe/Sicily) | 个人soj库 |
 | [**SetGame**](https://github.com/LeePepe/SetGame) | CS193P IOS APPLICATION DEVELOPMENT Assignment II: Set |
 | [**local-agent-reviewer**](https://github.com/LeePepe/local-agent-reviewer) | AI-powered PR code review via local agent CLI and GitHub Actions |
-| [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**LearningDemo**](https://github.com/LeePepe/LearningDemo) | — |
 | [**hello-world**](https://github.com/LeePepe/hello-world) | First Project |
 | [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
