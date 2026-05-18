@@ -32,13 +32,14 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**NameForge**](https://github.com/LeePepe/NameForge) | — |
+| [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
-| [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
 | [**pew**](https://github.com/LeePepe/pew) | 🦓 The contribution graph for AI-native developers — track and visualize your token usage across coding tools |
 | [**Aing**](https://github.com/LeePepe/Aing) | A standalone notification bridge for AI coding CLIs — get macOS notifications when Claude, Codex, OpenCode, or Copilot needs you |
@@ -48,7 +49,6 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | [**local-agent-reviewer**](https://github.com/LeePepe/local-agent-reviewer) | AI-powered PR code review via local agent CLI and GitHub Actions |
 | [**LearningDemo**](https://github.com/LeePepe/LearningDemo) | — |
 | [**hello-world**](https://github.com/LeePepe/hello-world) | First Project |
-| [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
 | [**elsa-core**](https://github.com/LeePepe/elsa-core) | A .NET Standard 2.0 Workflows Library |
 | [**DropIt**](https://github.com/LeePepe/DropIt) | — |
 | [**CPP**](https://github.com/LeePepe/CPP) | learn C++ with DS |
