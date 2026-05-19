@@ -32,10 +32,11 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
 | [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
