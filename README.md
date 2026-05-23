@@ -32,9 +32,10 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
