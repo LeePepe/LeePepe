@@ -32,6 +32,7 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
