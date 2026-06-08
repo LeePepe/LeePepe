@@ -32,6 +32,7 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
