@@ -32,9 +32,9 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
