@@ -32,9 +32,9 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
