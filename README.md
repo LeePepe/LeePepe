@@ -32,12 +32,12 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
-| [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
