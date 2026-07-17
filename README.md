@@ -32,11 +32,11 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
