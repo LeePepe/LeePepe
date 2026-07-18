@@ -32,9 +32,9 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
