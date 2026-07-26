@@ -32,8 +32,8 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
