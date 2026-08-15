@@ -32,9 +32,9 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**hermes-agent**](https://github.com/LeePepe/hermes-agent) | The agent that grows with you |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
