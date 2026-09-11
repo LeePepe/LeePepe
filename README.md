@@ -33,6 +33,7 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | project | description |
 |---|---|
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
+| [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
 | [**mahjong-stats-data**](https://github.com/LeePepe/mahjong-stats-data) | 麻将统计公开数据与 Git 编辑历史 |
@@ -41,7 +42,6 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 | [**hermes-agent**](https://github.com/LeePepe/hermes-agent) | The agent that grows with you |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
 | [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
-| [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
