@@ -32,10 +32,10 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
-| [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
 | [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
