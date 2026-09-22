@@ -32,12 +32,14 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
+| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
-| [**LokiKit**](https://github.com/LeePepe/LokiKit) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
 | [**mahjong-stats-data**](https://github.com/LeePepe/mahjong-stats-data) | 麻将统计公开数据与 Git 编辑历史 |
 | [**hermes-agent**](https://github.com/LeePepe/hermes-agent) | The agent that grows with you |
