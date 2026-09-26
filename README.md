@@ -32,14 +32,14 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
-| [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
+| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
-| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
 | [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
