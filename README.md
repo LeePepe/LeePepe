@@ -32,12 +32,12 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 | project | description |
 |---|---|
+| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
-| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
