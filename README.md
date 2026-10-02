@@ -28,6 +28,32 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 ---
 
+<!-- human-agent-stats:start -->
+### human + agent
+
+Public, non-fork repositories · default branches · non-merge commits
+
+**2026 year to date**
+
+| Author | Commits | Lines added | Lines deleted | Lines changed |
+|:--|--:|--:|--:|--:|
+| Human | 1,331 | +674,871 | −77,323 | 752,194 |
+| Agent | 74 | +18,833 | −1,254 | 20,087 |
+| Combined | 1,405 | +693,704 | −78,577 | 772,281 |
+
+**All time**
+
+| Author | Commits | Lines added | Lines deleted | Lines changed |
+|:--|--:|--:|--:|--:|
+| Human | 1,435 | +709,616 | −79,362 | 788,978 |
+| Agent | 74 | +18,833 | −1,254 | 20,087 |
+| Combined | 1,509 | +728,449 | −80,616 | 809,065 |
+
+<sub>Updated 2026-10-02 15:11 UTC · 33 repositories. GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<!-- human-agent-stats:end -->
+
+---
+
 ### projects
 
 | project | description |
