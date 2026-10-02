@@ -1,4 +1,4 @@
-name: Update README Projects
+name: Update README
 
 on:
   schedule:
@@ -12,11 +12,23 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+    concurrency:
+      group: profile-readme-update
+      cancel-in-progress: false
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Verify contribution statistics
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Update human and agent contributions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/profile_stats.py
 
       - name: Sync projects table to README
         env:
@@ -80,5 +92,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --staged --quiet \
-            || git commit -m "chore: sync projects table [skip ci]" \
+            || git commit -m "chore: refresh profile statistics and projects [skip ci]" \
             && git push
