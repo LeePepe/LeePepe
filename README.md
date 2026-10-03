@@ -33,23 +33,38 @@ iOS engineer at **Microsoft** · AI tools builder on the side
 
 Public, non-fork repositories · default branches · non-merge commits
 
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/human-calendar-mobile.svg">
+  <img src="assets/human-calendar.svg" alt="Human commit calendar for the last 365 days, with active days and text additions/deletions" width="900">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/agent-calendar-mobile.svg">
+  <img src="assets/agent-calendar.svg" alt="Agent commit calendar for the last 365 days, with active days and text additions/deletions" width="900">
+</picture>
+
+<details>
+<summary>Year-to-date and all-time totals</summary>
+
 **2026 year to date**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,331 | +674,871 | −77,323 | 752,194 |
-| Agent | 76 | +19,683 | −1,272 | 20,955 |
-| Combined | 1,407 | +694,554 | −78,595 | 773,149 |
+| Agent | 78 | +19,754 | −1,345 | 21,099 |
+| Combined | 1,409 | +694,625 | −78,668 | 773,293 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,435 | +709,616 | −79,362 | 788,978 |
-| Agent | 76 | +19,683 | −1,272 | 20,955 |
-| Combined | 1,511 | +729,299 | −80,634 | 809,933 |
+| Agent | 78 | +19,754 | −1,345 | 21,099 |
+| Combined | 1,513 | +729,370 | −80,707 | 810,077 |
 
-<sub>Updated 2026-10-03 01:31 UTC · 33 repositories. GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+</details>
+
+<sub>Updated 2026-10-03 01:40 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
