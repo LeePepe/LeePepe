@@ -51,19 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,331 | +674,871 | −77,323 | 752,194 |
-| Agent | 78 | +19,754 | −1,345 | 21,099 |
-| Combined | 1,409 | +694,625 | −78,668 | 773,293 |
+| Agent | 81 | +22,056 | −1,593 | 23,649 |
+| Combined | 1,412 | +696,927 | −78,916 | 775,843 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,435 | +709,616 | −79,362 | 788,978 |
-| Agent | 78 | +19,754 | −1,345 | 21,099 |
-| Combined | 1,513 | +729,370 | −80,707 | 810,077 |
+| Agent | 81 | +22,056 | −1,593 | 23,649 |
+| Combined | 1,516 | +731,672 | −80,955 | 812,627 |
 
+</details>
 
-<sub>Updated 2026-10-03 07:19 UTC · 33 repositories. GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-04 01:17 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,9 +74,9 @@ Public, non-fork repositories · default branches · non-merge commits
 | project | description |
 |---|---|
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
-| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
+| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
