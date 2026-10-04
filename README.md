@@ -51,20 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,331 | +674,871 | −77,323 | 752,194 |
-| Agent | 83 | +24,368 | −1,622 | 25,990 |
-| Combined | 1,414 | +699,239 | −78,945 | 778,184 |
+| Agent | 84 | +24,496 | −1,636 | 26,132 |
+| Combined | 1,415 | +699,367 | −78,959 | 778,326 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,435 | +709,616 | −79,362 | 788,978 |
-| Agent | 83 | +24,368 | −1,622 | 25,990 |
-| Combined | 1,518 | +733,984 | −80,984 | 814,968 |
+| Agent | 84 | +24,496 | −1,636 | 26,132 |
+| Combined | 1,519 | +734,112 | −80,998 | 815,110 |
 
 </details>
 
-<sub>Updated 2026-10-04 14:49 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-04 18:40 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,9 +73,9 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
