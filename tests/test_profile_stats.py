@@ -1,5 +1,5 @@
 import importlib.util
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from http.client import IncompleteRead
 from pathlib import Path
 import subprocess
@@ -8,6 +8,7 @@ import tempfile
 import unittest
 from unittest.mock import MagicMock, patch
 from urllib.error import HTTPError
+from xml.etree import ElementTree
 
 
 SPEC = importlib.util.spec_from_file_location(
@@ -109,8 +110,9 @@ class StatsTests(unittest.TestCase):
     def test_only_empty_repository_errors_are_ignored(self):
         client = stats.GitHub("")
         for code in (409, 403, 404, 500):
-            with patch.object(
-                client, "get", side_effect=HTTPError("url", code, "error", {}, None)
+            with (
+                HTTPError("url", code, "error", {}, None) as error,
+                patch.object(client, "get", side_effect=error),
             ):
                 if code == 409:
                     self.assertEqual(client.commits(repo()), [])
@@ -151,7 +153,7 @@ class StatsTests(unittest.TestCase):
                             client, "person", "helper[bot]", datetime.now(timezone.utc)
                         )
                 else:
-                    totals, _ = stats.collect(
+                    totals, _, _ = stats.collect(
                         client, "person", "helper[bot]", datetime.now(timezone.utc)
                     )
                     self.assertEqual(totals["all"]["Human"], stats.Totals(1, 1, 0))
@@ -212,12 +214,14 @@ class StatsTests(unittest.TestCase):
             patch.object(client, "commits", return_value=history),
             patch.object(stats, "git", return_value=b"3\t2\tfile.py\0"),
         ):
-            totals, count = stats.collect(client, "person", "helper[bot]", now)
+            totals, count, daily = stats.collect(client, "person", "helper[bot]", now)
         self.assertEqual(count, 2)
         self.assertEqual(totals["all"]["Human"], stats.Totals(1, 3, 2))
         self.assertEqual(totals["all"]["Agent"], stats.Totals(1, 3, 2))
         self.assertEqual(totals["year"]["Human"].commits, 1)
         self.assertEqual(totals["year"]["Agent"].commits, 0)
+        self.assertEqual(daily["Human"], {date(2026, 2, 1): stats.Totals(1, 3, 2)})
+        self.assertEqual(daily["Agent"], {date(2025, 1, 1): stats.Totals(1, 3, 2)})
 
     def test_git_failure_stops_collection(self):
         client = stats.GitHub("")
@@ -244,13 +248,14 @@ class StatsTests(unittest.TestCase):
             ),
             patch.object(stats, "git", return_value=b"1\t0\tfile.py\0"),
         ):
-            totals, _ = stats.collect(
+            totals, _, daily = stats.collect(
                 client,
                 "person",
                 "helper[bot]",
                 datetime(2026, 10, 2, tzinfo=timezone.utc),
             )
         self.assertEqual(totals["year"]["Human"].commits, 1)
+        self.assertEqual(daily["Human"], {date(2026, 1, 1): stats.Totals(1, 1, 0)})
 
     def test_render_and_update_preserve_surrounding_readme(self):
         totals = {
@@ -263,6 +268,9 @@ class StatsTests(unittest.TestCase):
         section = stats.render(totals, 4, datetime(2026, 10, 2, tzinfo=timezone.utc))
         self.assertIn("| Combined | 5 | +300 | −70 | 370 |", section)
         self.assertIn("including docs/config", section)
+        self.assertIn("human-calendar.svg", section)
+        self.assertIn("agent-calendar-mobile.svg", section)
+        self.assertIn("<details>", section)
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "README.md"
             path.write_text(f"intro\n{stats.START}\nold\n{stats.END}\nprojects")
@@ -329,10 +337,126 @@ class StatsTests(unittest.TestCase):
                 ),
                 patch.object(stats, "git", side_effect=local_clone),
             ):
-                totals, _ = stats.collect(
+                totals, _, _ = stats.collect(
                     client, "person", "helper[bot]", datetime.now(timezone.utc)
                 )
             self.assertEqual(totals["all"]["Human"], stats.Totals(2, 2, 0))
+
+    def test_calendar_has_exactly_365_days_including_leap_day_and_no_future_cells(self):
+        for today in (date(2024, 3, 1), date(2026, 10, 3), date(2026, 10, 4)):
+            for compact in (False, True):
+                root = ElementTree.fromstring(
+                    stats.render_calendar("person", "Human", {}, today, compact=compact)
+                )
+                cells = [
+                    element for element in root.iter() if "data-date" in element.attrib
+                ]
+                expected = {
+                    str(today - timedelta(days=offset)) for offset in range(365)
+                }
+                self.assertEqual({cell.attrib["data-date"] for cell in cells}, expected)
+                self.assertEqual(len(cells), 365)
+                self.assertTrue(all(cell.attrib["data-count"] == "0" for cell in cells))
+                width, height = map(int, root.attrib["viewBox"].split()[2:])
+                for cell in cells:
+                    self.assertLess(
+                        float(cell.attrib["x"]) + float(cell.attrib["width"]), width
+                    )
+                    self.assertLess(
+                        float(cell.attrib["y"]) + float(cell.attrib["height"]), height
+                    )
+
+    def test_calendar_positions_weekdays_and_shared_color_thresholds(self):
+        today = date(2026, 10, 3)  # Saturday
+        days = {
+            today: stats.Totals(20, 50, 10),
+            today - timedelta(days=1): stats.Totals(1, 4, 2),
+        }
+        root = ElementTree.fromstring(
+            stats.render_calendar("person", "Human", days, today)
+        )
+        cells = {
+            element.attrib["data-date"]: element
+            for element in root.iter()
+            if "data-date" in element.attrib
+        }
+        self.assertEqual(cells[str(today)].attrib["class"], "day level-4")
+        self.assertEqual(cells[str(today)].attrib["y"], str(134 + 6 * 15))
+        self.assertEqual(
+            cells[str(today - timedelta(days=1))].attrib["class"], "day level-1"
+        )
+        self.assertEqual(
+            [stats.calendar_level(x) for x in (0, 1, 3, 4, 9, 10, 19, 20)],
+            [0, 1, 1, 2, 2, 3, 3, 4],
+        )
+
+    def test_calendar_totals_match_visible_window_and_escape_text(self):
+        today = date(2026, 10, 3)
+        days = {
+            today: stats.Totals(2, 15, 7),
+            today - timedelta(days=364): stats.Totals(3, 20, 1),
+            today - timedelta(days=365): stats.Totals(100, 100, 100),
+            today + timedelta(days=1): stats.Totals(100, 100, 100),
+        }
+        content = stats.render_calendar('person <&> "test"', "Human", days, today)
+        root = ElementTree.fromstring(content)
+        text = " ".join(root.itertext())
+        self.assertIn("5 commits in the last 365 days", text)
+        self.assertIn("2 active days, 35 lines added, 8 lines deleted", text)
+        self.assertIn('person <&> "test"', text)
+        self.assertIn("prefers-color-scheme:dark", content)
+
+    def test_main_generates_four_calendars_after_successful_collection(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "README.md"
+            path.write_text(f"intro\n{stats.START}\nold\n{stats.END}\nprojects")
+            today = datetime.now(timezone.utc).date()
+            totals = {
+                period: {
+                    "Human": stats.Totals(2, 10, 5),
+                    "Agent": stats.Totals(1, 6, 3),
+                }
+                for period in ("year", "all")
+            }
+            daily = {
+                "Human": {today: totals["all"]["Human"]},
+                "Agent": {today: totals["all"]["Agent"]},
+            }
+            with (
+                patch.object(
+                    sys,
+                    "argv",
+                    [
+                        "profile_stats.py",
+                        "--owner",
+                        "person",
+                        "--agent",
+                        "helper[bot]",
+                        "--readme",
+                        str(path),
+                    ],
+                ),
+                patch.object(
+                    stats.GitHub,
+                    "get",
+                    side_effect=[{"login": "person"}, {"login": "helper[bot]"}],
+                ),
+                patch.object(stats, "collect", return_value=(totals, 1, daily)),
+                patch("builtins.print"),
+            ):
+                stats.main()
+            self.assertEqual(
+                {p.name for p in (Path(directory) / "assets").iterdir()},
+                {
+                    "human-calendar.svg",
+                    "human-calendar-mobile.svg",
+                    "agent-calendar.svg",
+                    "agent-calendar-mobile.svg",
+                },
+            )
+            self.assertIn("human-calendar.svg", path.read_text())
+            for asset in (Path(directory) / "assets").iterdir():
+                ElementTree.fromstring(asset.read_text())
 
 
 if __name__ == "__main__":

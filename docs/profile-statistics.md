@@ -1,9 +1,31 @@
 # Profile contribution statistics
 
-The `human + agent` section is refreshed by the existing daily profile workflow,
-at 02:00 UTC, or through its manual trigger. The updater needs only Python's
+The `human + agent` section contains separate human and agent commit calendars,
+refreshed by the existing profile workflow at minute 17 of every hour (UTC), or
+through its manual trigger. Schedules and GitHub image caches can delay visible
+updates; these are periodically generated images, not live JavaScript widgets.
+The updater needs only Python's
 standard library, Git, and the workflow's existing token; no new secrets or
 third-party statistics service are required.
+
+## Calendar display
+
+- Each green square represents one UTC author date in the last **365 days**,
+  including today. Weeks start on Sunday; alignment padding is blank, not zero
+  activity. Leap days are included when within the rolling window.
+- Both authors use the same intensity scale: 0, 1–3, 4–9, 10–19, and 20+ commits.
+  The totals and text additions/deletions inside each card cover that same window.
+- Desktop cards show the full year across one grid. Below 600px, a separate image
+  wraps the same weeks into two bands for readable labels. Images adapt to the
+  viewer's preferred light/dark color scheme without JavaScript or animation.
+- The original year-to-date and all-time totals remain in an expandable section.
+  These calendars count **commits**, not GitHub's broader contributions metric
+  (which also includes issues, pull requests, and reviews). They do not alter the
+  native GitHub contribution graph or commit authorship.
+- Calendar images and README are committed together only after a successful scan.
+  The two desktop and two mobile images live under `assets/`; no external hosting
+  is required. SVG descriptions include accessible aggregate summaries. GitHub
+  embeds SVGs as images, so individual-day tooltips are not promised in the README.
 
 ## Counting rules
 
