@@ -51,20 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,331 | +674,871 | −77,323 | 752,194 |
-| Agent | 87 | +25,039 | −1,675 | 26,714 |
-| Combined | 1,418 | +699,910 | −78,998 | 778,908 |
+| Agent | 91 | +25,688 | −1,828 | 27,516 |
+| Combined | 1,422 | +700,559 | −79,151 | 779,710 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,435 | +709,616 | −79,362 | 788,978 |
-| Agent | 87 | +25,039 | −1,675 | 26,714 |
-| Combined | 1,522 | +734,655 | −81,037 | 815,692 |
+| Agent | 91 | +25,688 | −1,828 | 27,516 |
+| Combined | 1,526 | +735,304 | −81,190 | 816,494 |
 
 </details>
 
-<sub>Updated 2026-10-07 00:47 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-07 07:18 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,14 +73,14 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
 | [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
