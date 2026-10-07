@@ -64,7 +64,7 @@ Public, non-fork repositories · default branches · non-merge commits
 
 </details>
 
-<sub>Updated 2026-10-06 20:24 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-07 00:47 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,10 +73,10 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
