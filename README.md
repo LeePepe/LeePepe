@@ -51,20 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,331 | +674,871 | −77,323 | 752,194 |
-| Agent | 101 | +29,259 | −2,682 | 31,941 |
-| Combined | 1,432 | +704,130 | −80,005 | 784,135 |
+| Agent | 103 | +32,398 | −2,764 | 35,162 |
+| Combined | 1,434 | +707,269 | −80,087 | 787,356 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,435 | +709,616 | −79,362 | 788,978 |
-| Agent | 101 | +29,259 | −2,682 | 31,941 |
-| Combined | 1,536 | +738,875 | −82,044 | 820,919 |
+| Agent | 103 | +32,398 | −2,764 | 35,162 |
+| Combined | 1,538 | +742,014 | −82,126 | 824,140 |
 
 </details>
 
-<sub>Updated 2026-10-10 01:48 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-10 08:37 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,10 +73,10 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
