@@ -50,21 +50,21 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,334 | +675,060 | −77,379 | 752,439 |
-| Agent | 125 | +52,970 | −19,964 | 72,934 |
-| Combined | 1,459 | +728,030 | −97,343 | 825,373 |
+| Human | 1,339 | +678,214 | −78,414 | 756,628 |
+| Agent | 127 | +54,213 | −19,969 | 74,182 |
+| Combined | 1,466 | +732,427 | −98,383 | 830,810 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,438 | +709,805 | −79,418 | 789,223 |
-| Agent | 125 | +52,970 | −19,964 | 72,934 |
-| Combined | 1,563 | +762,775 | −99,382 | 862,157 |
+| Human | 1,443 | +712,959 | −80,453 | 793,412 |
+| Agent | 127 | +54,213 | −19,969 | 74,182 |
+| Combined | 1,570 | +767,172 | −100,422 | 867,594 |
 
 </details>
 
-<sub>Updated 2026-10-13 22:53 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-14 01:58 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,10 +73,11 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
@@ -90,7 +91,6 @@ Public, non-fork repositories · default branches · non-merge commits
 | [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
 | [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
 | [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
-| [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
 | [**NameForge**](https://github.com/LeePepe/NameForge) | — |
 | [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
