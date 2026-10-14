@@ -50,21 +50,21 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,342 | +680,752 | −78,517 | 759,269 |
-| Agent | 138 | +55,259 | −20,227 | 75,486 |
-| Combined | 1,480 | +736,011 | −98,744 | 834,755 |
+| Human | 1,344 | +681,779 | −78,579 | 760,358 |
+| Agent | 147 | +59,017 | −20,412 | 79,429 |
+| Combined | 1,491 | +740,796 | −98,991 | 839,787 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,446 | +715,497 | −80,556 | 796,053 |
-| Agent | 138 | +55,259 | −20,227 | 75,486 |
-| Combined | 1,584 | +770,756 | −100,783 | 871,539 |
+| Human | 1,448 | +716,524 | −80,618 | 797,142 |
+| Agent | 147 | +59,017 | −20,412 | 79,429 |
+| Combined | 1,595 | +775,541 | −101,030 | 876,571 |
 
 </details>
 
-<sub>Updated 2026-10-14 07:45 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-14 13:49 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -74,12 +74,12 @@ Public, non-fork repositories · default branches · non-merge commits
 | project | description |
 |---|---|
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
-| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
+| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
