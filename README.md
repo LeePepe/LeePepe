@@ -51,20 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,349 | +689,196 | −78,670 | 767,866 |
-| Agent | 182 | +70,176 | −24,421 | 94,597 |
-| Combined | 1,531 | +759,372 | −103,091 | 862,463 |
+| Agent | 185 | +70,807 | −24,699 | 95,506 |
+| Combined | 1,534 | +760,003 | −103,369 | 863,372 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,453 | +723,941 | −80,709 | 804,650 |
-| Agent | 182 | +70,176 | −24,421 | 94,597 |
-| Combined | 1,635 | +794,117 | −105,130 | 899,247 |
+| Agent | 185 | +70,807 | −24,699 | 95,506 |
+| Combined | 1,638 | +794,748 | −105,408 | 900,156 |
 
 </details>
 
-<sub>Updated 2026-10-15 18:22 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-15 22:25 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -75,8 +75,8 @@ Public, non-fork repositories · default branches · non-merge commits
 |---|---|
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
