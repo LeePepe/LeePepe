@@ -50,21 +50,21 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,344 | +681,779 | −78,579 | 760,358 |
-| Agent | 155 | +60,002 | −23,059 | 83,061 |
-| Combined | 1,499 | +741,781 | −101,638 | 843,419 |
+| Human | 1,345 | +681,863 | −78,579 | 760,442 |
+| Agent | 161 | +62,745 | −23,586 | 86,331 |
+| Combined | 1,506 | +744,608 | −102,165 | 846,773 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,448 | +716,524 | −80,618 | 797,142 |
-| Agent | 155 | +60,002 | −23,059 | 83,061 |
-| Combined | 1,603 | +776,526 | −103,677 | 880,203 |
+| Human | 1,449 | +716,608 | −80,618 | 797,226 |
+| Agent | 161 | +62,745 | −23,586 | 86,331 |
+| Combined | 1,610 | +779,353 | −104,204 | 883,557 |
 
 </details>
 
-<sub>Updated 2026-10-15 01:33 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-15 07:32 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,14 +73,14 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
+| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
+| [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
-| [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**Localis**](https://github.com/LeePepe/Localis) | — |
