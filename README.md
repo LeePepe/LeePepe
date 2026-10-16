@@ -50,21 +50,21 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,377 | +701,541 | −78,808 | 780,349 |
-| Agent | 195 | +75,800 | −25,770 | 101,570 |
-| Combined | 1,572 | +777,341 | −104,578 | 881,919 |
+| Human | 1,378 | +703,015 | −78,808 | 781,823 |
+| Agent | 196 | +77,556 | −25,806 | 103,362 |
+| Combined | 1,574 | +780,571 | −104,614 | 885,185 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,481 | +736,286 | −80,847 | 817,133 |
-| Agent | 195 | +75,800 | −25,770 | 101,570 |
-| Combined | 1,676 | +812,086 | −106,617 | 918,703 |
+| Human | 1,482 | +737,760 | −80,847 | 818,607 |
+| Agent | 196 | +77,556 | −25,806 | 103,362 |
+| Combined | 1,678 | +815,316 | −106,653 | 921,969 |
 
 </details>
 
-<sub>Updated 2026-10-16 13:19 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-16 18:08 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,11 +73,11 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
-| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
+| [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
