@@ -64,7 +64,7 @@ Public, non-fork repositories · default branches · non-merge commits
 
 </details>
 
-<sub>Updated 2026-10-18 15:57 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-18 18:41 UTC · 33 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,8 +73,8 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
 | [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
 | [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
