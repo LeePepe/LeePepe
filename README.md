@@ -64,7 +64,7 @@ Public, non-fork repositories · default branches · non-merge commits
 
 </details>
 
-<sub>Updated 2026-10-19 17:33 UTC · 34 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-19 22:27 UTC · 34 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,9 +73,9 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**user-skills**](https://github.com/LeePepe/user-skills) | General-purpose skills for CLI agents (Claude Code, Codex) |
 | [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
