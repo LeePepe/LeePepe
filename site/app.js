@@ -297,8 +297,8 @@
       e.preventDefault();
       next = Math.max(0, Math.min(calendarDates.length - 1, next));
       const target = $(`[data-date="${calendarDates[next]}"]`);
-      target.tabIndex = 0;
       button.tabIndex = -1;
+      target.tabIndex = 0;
       target.focus();
       target.scrollIntoView({ block: "nearest", inline: "nearest" });
     }
