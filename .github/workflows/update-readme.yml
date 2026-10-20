@@ -2,96 +2,59 @@ name: Update README
 
 on:
   schedule:
-    - cron: '17 * * * *'  # Hourly, off the busy top-of-hour queue
-  workflow_dispatch:        # 允许手动触发
+    - cron: '17 * * * *'
+  workflow_dispatch:
   push:
     branches: [main]
     paths-ignore:
-      - 'README.md'         # 避免 bot 提交触发死循环
-      - 'assets/*-calendar*.svg'
+      - README.md
+      - assets/*-calendar*.svg
+      - assets/profile-activity*.svg
+      - assets/activity-daily.md
+      - site/data.json
+
+# Includes deployment: an older scan cannot deploy after a newer scan.
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: false
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    concurrency:
-      group: profile-readme-update
-      cancel-in-progress: false
+    timeout-minutes: 30
     permissions:
       contents: write
-
+    outputs:
+      publish_sha: ${{ steps.publish.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          ref: main
       - name: Verify contribution statistics
         run: python3 -m unittest discover -s tests -v
-
-      - name: Update human and agent contributions
+      - name: Collect and render one public snapshot
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/profile_stats.py
-
-      - name: Sync projects table to README
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/profile_activity.py
+      - name: Commit the complete generation
+        id: publish
         run: |
-          python3 << 'PYEOF'
-          import os, re, json
-          from urllib.request import Request, urlopen
-          from urllib.error import HTTPError
-
-          username = os.environ["GH_USERNAME"]
-          token    = os.environ["GH_TOKEN"]
-
-          def gh_get(url):
-              req = Request(url)
-              req.add_header("Authorization", f"Bearer {token}")
-              req.add_header("Accept", "application/vnd.github+json")
-              req.add_header("X-GitHub-Api-Version", "2022-11-28")
-              with urlopen(req) as r:
-                  return json.loads(r.read())
-
-          # 拉取所有公开 repo（最多 100 个，按更新时间倒序）
-          repos = gh_get(
-              f"https://api.github.com/users/{username}/repos"
-              "?per_page=100&sort=updated&type=public"
-          )
-
-          # 直接展示所有 public 仓库（保持 API 返回顺序：最近更新优先）
-          public_repos = repos
-
-          # 构建 Markdown 表格行（description 为空时显示 —）
-          rows = "\n".join(
-              f"| [**{r['name']}**]({r['html_url']}) | {r['description'].strip() if r.get('description') else '—'} |"
-              for r in public_repos
-          )
-          table = f"| project | description |\n|---|---|\n{rows}"
-
-          with open("README.md", "r") as f:
-              content = f.read()
-
-          # 替换 ### projects 到下一个 --- 之间的表格
-          new_content = re.sub(
-              r"(### projects\n\n)\|.*?\|(\n\n---)",
-              rf"\g<1>{table}\g<2>",
-              content,
-              flags=re.DOTALL,
-          )
-
-          if new_content == content:
-              print("No changes detected.")
-          else:
-              with open("README.md", "w") as f:
-                  f.write(new_content)
-              print("README.md updated.")
-          PYEOF
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/*-calendar*.svg
-          git diff --staged --quiet \
-            || git commit -m "chore: refresh profile statistics and projects [skip ci]" \
-            && git push
+          git add README.md assets/profile-activity.svg assets/profile-activity-mobile.svg assets/activity-daily.md site/data.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: refresh public activity notebook [skip ci]"
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  # GITHUB_TOKEN pushes do not trigger another push workflow. Deploy explicitly.
+  deploy:
+    needs: update-readme
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-pages.yml
+    with:
+      publish_sha: ${{ needs.update-readme.outputs.publish_sha }}

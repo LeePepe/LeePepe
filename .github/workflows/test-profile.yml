@@ -6,12 +6,18 @@ on:
       - scripts/**
       - tests/**
       - .github/workflows/**
+      - site/**
+      - assets/**
+      - README.md
   push:
     branches: [main]
     paths:
       - scripts/**
       - tests/**
       - .github/workflows/**
+      - site/**
+      - assets/**
+      - README.md
 
 permissions:
   contents: read

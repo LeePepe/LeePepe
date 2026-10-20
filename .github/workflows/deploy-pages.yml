@@ -1,0 +1,44 @@
+name: Deploy activity notebook
+
+on:
+  workflow_call:
+    inputs:
+      publish_sha:
+        description: Exact commit containing the successful README/data generation
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.publish_sha }}
+      - name: Check generation is complete
+        run: |
+          python3 - <<'PYCODE'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('site/data.json').read_text())
+          generation = data['snapshot']['id'][:12]
+          for path in ('README.md', 'assets/profile-activity.svg', 'assets/profile-activity-mobile.svg', 'assets/activity-daily.md'):
+              assert generation in Path(path).read_text(), f'Generation mismatch: {path}'
+          assert data['data_kind'] == 'public_snapshot'
+          PYCODE
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy exact successful generation
+        id: deployment
+        uses: actions/deploy-pages@v4

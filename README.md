@@ -1,122 +1,76 @@
-<div align="center">
+<sub>LEEPEPE / AN ENGINEERING NOTEBOOK</sub>
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=22&duration=3500&pause=1500&color=7C6AF7&center=true&vCenter=true&width=480&lines=I+build+apps+that+think.;iOS+%40+Microsoft.;voice+%C2%B7+AI+tools+%C2%B7+MCP." alt="" />
+# Thoughtful apps. Useful tools.
 
-<br/>
+iOS engineer at **Microsoft**. I build for Apple platforms and explore better ways to work with AI.
 
-iOS engineer at **Microsoft** · AI tools builder on the side
+[GitHub](https://github.com/LeePepe) · [LinkedIn](https://linkedin.com/in/leepepe) · [Activity notebook ↗](https://leepepe.github.io/LeePepe/)
 
-<br/>
+**Working with** — Swift · SwiftUI · TypeScript · Python · Core ML · MCP
 
-[![GitHub](https://img.shields.io/badge/GitHub-LeePepe-181717?style=flat-square&logo=github)](https://github.com/LeePepe)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/leepepe)
+## Selected work
 
-</div>
+### [VoxPocket ↗](https://github.com/LeePepe/VoxPocket)
+Voice recording and transcription for macOS and iOS, with Apple Speech, local WhisperKit, and configured cloud options.<br>
+<sub>SwiftUI · Speech · Core ML</sub>
 
----
+### [VitalStride ↗](https://github.com/LeePepe/VitalStride)
+A health and fitness app exploring activity collection, HealthKit integration, and personal trends. In development.<br>
+<sub>SwiftUI · HealthKit</sub>
 
-### stack
+### [AIDash ↗](https://github.com/LeePepe/AIDash)
+A personal AI briefing dashboard for Mac, iPad, and iPhone. Agents publish; the user reads.<br>
+<sub>Apple platforms · Python</sub>
 
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0070C9?style=flat-square&logo=swift&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=flat-square&logo=xcode&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Core ML](https://img.shields.io/badge/Core_ML-000000?style=flat-square&logo=apple&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-7C6AF7?style=flat-square&logoColor=white)
+**Behind the apps**<br>
+[shared-telemetry](https://github.com/LeePepe/shared-telemetry) — local telemetry, with Swift and Web SDKs<br>
+[shared-ci](https://github.com/LeePepe/shared-ci) — versioned CI and repository engineering contracts<br>
+[agent-skills](https://github.com/LeePepe/agent-skills) — reusable workflows for CLI coding agents
 
----
+[Browse all repositories ↗](https://github.com/LeePepe?tab=repositories)
 
 <!-- human-agent-stats:start -->
-### human + agent
+## Activity notebook
 
-Public, non-fork repositories · default branches · non-merge commits
+Human and agent activity, side by side. **[Explore days, repositories & pull requests ↗](https://leepepe.github.io/LeePepe/)**
 
+<a href="https://leepepe.github.io/LeePepe/">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/human-calendar-mobile.svg">
-  <img src="assets/human-calendar.svg" alt="Human commit calendar for the last 365 days, with active days and text additions/deletions" width="900">
+  <source media="(max-width: 600px)" srcset="assets/profile-activity-mobile.svg">
+  <img src="assets/profile-activity.svg" width="1000" alt="Public activity: 197 commits and 155 PRs opened in 7 days; 369 commits and 322 PRs opened in 30 days. Open the activity notebook for daily details.">
 </picture>
+</a>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/agent-calendar-mobile.svg">
-  <img src="assets/agent-calendar.svg" alt="Agent commit calendar for the last 365 days, with active days and text additions/deletions" width="900">
-</picture>
+**Last 7 days:** 197 commits, 155 PRs opened · **Last 30 days:** 369 commits, 322 PRs opened<br>
+**365 days:** 1,401 human + 264 agent commits<br>
+<sub>Updated 2026-10-20 08:49:51 UTC · 35 public repositories · Snapshot 81e9e07b007f · Refreshed hourly; scan and image-cache delays are possible.</sub>
 
 <details>
-<summary>Year-to-date and all-time totals</summary>
+<summary>Counting notes & year-to-date / all-time totals</summary>
 
 **2026 year to date**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,396 | +717,881 | −79,889 | 797,770 |
-| Agent | 256 | +115,976 | −29,401 | 145,377 |
-| Combined | 1,652 | +833,857 | −109,290 | 943,147 |
+| Human | 1,399 | +720,891 | −83,698 | 804,589 |
+| Agent | 264 | +116,463 | −29,655 | 146,118 |
+| Combined | 1,663 | +837,354 | −113,353 | 950,707 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
-| Human | 1,500 | +752,626 | −81,928 | 834,554 |
-| Agent | 256 | +115,976 | −29,401 | 145,377 |
-| Combined | 1,756 | +868,602 | −111,329 | 979,931 |
+| Human | 1,503 | +755,636 | −85,737 | 841,373 |
+| Agent | 264 | +116,463 | −29,655 | 146,118 |
+| Combined | 1,767 | +872,099 | −115,392 | 987,491 |
+
+Owner-owned public, non-fork repositories, including archives. Human = LeePepe; Agent = leepepe-agent[bot]. Other authors and automation are excluded. Unique non-merge default-branch commits use UTC author dates; PRs use UTC creation dates. Merged/open/closed-unmerged figures describe the PR creation-date cohort's current states, not period merge events. Future dates are excluded.
+
+Lines measure text churn (including docs/config), not current LOC; binaries are excluded. [Daily totals](assets/activity-daily.md) · [Counting rules](docs/profile-statistics.md) · [Public dataset](site/data.json)
 
 </details>
-
-<sub>Updated 2026-10-20 07:42 UTC · 35 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
 
-### projects
-
-| project | description |
-|---|---|
-| [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
-| [**demoUI**](https://github.com/LeePepe/demoUI) | — |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
-| [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
-| [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
-| [**user-skills**](https://github.com/LeePepe/user-skills) | General-purpose skills for CLI agents (Claude Code, Codex) |
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
-| [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
-| [**shared-design-system**](https://github.com/LeePepe/shared-design-system) | — |
-| [**leepepe.github.io**](https://github.com/LeePepe/leepepe.github.io) | — |
-| [**AIDash**](https://github.com/LeePepe/AIDash) | Personal AI briefing dashboard for macOS / iPadOS / iPhone — agents publish, user reads |
-| [**VitalStride**](https://github.com/LeePepe/VitalStride) | — |
-| [**Localis**](https://github.com/LeePepe/Localis) | — |
-| [**mahjong-stats**](https://github.com/LeePepe/mahjong-stats) | 群内麻将月度战绩、单局排行、天胡和编辑历史 |
-| [**mahjong-stats-data**](https://github.com/LeePepe/mahjong-stats-data) | 麻将统计公开数据与 Git 编辑历史 |
-| [**hermes-agent**](https://github.com/LeePepe/hermes-agent) | The agent that grows with you |
-| [**AppleUITesting**](https://github.com/LeePepe/AppleUITesting) | Universal Apple UI testing toolkit: AccessibilityKit, SnapshotKit, PerformanceKit, VisionEvalKit, UITestingBridge |
-| [**multica**](https://github.com/LeePepe/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. |
-| [**Helix**](https://github.com/LeePepe/Helix) | Helix — AI-powered Figma-to-code and fit-finish comparison for VSCode and Claude Code |
-| [**raven**](https://github.com/LeePepe/raven) | 🐦‍⬛ GitHub Copilot proxy that translates requests to Anthropic/OpenAI-compatible APIs with a usage dashboard |
-| [**hermes-skills**](https://github.com/LeePepe/hermes-skills) | Reusable Hermes Agent skills: deep-research, teamwork, helix |
-| [**NameForge**](https://github.com/LeePepe/NameForge) | — |
-| [**FaceIt**](https://github.com/LeePepe/FaceIt) | — |
-| [**teamwork**](https://github.com/LeePepe/teamwork) | Claude Code skill: orchestrate plan + Codex review + Codex/Copilot execution pipeline |
-| [**copilot-plugin-cc**](https://github.com/LeePepe/copilot-plugin-cc) | Claude Code plugin for the local Copilot CLI — rescue tasks and review code |
-| [**xcode-mcp-workflow**](https://github.com/LeePepe/xcode-mcp-workflow) | — |
-| [**pew**](https://github.com/LeePepe/pew) | 🦓 The contribution graph for AI-native developers — track and visualize your token usage across coding tools |
-| [**Aing**](https://github.com/LeePepe/Aing) | A standalone notification bridge for AI coding CLIs — get macOS notifications when Claude, Codex, OpenCode, or Copilot needs you |
-| [**Smashtag**](https://github.com/LeePepe/Smashtag) | — |
-| [**Sicily**](https://github.com/LeePepe/Sicily) | 个人soj库 |
-| [**SetGame**](https://github.com/LeePepe/SetGame) | CS193P IOS APPLICATION DEVELOPMENT Assignment II: Set |
-| [**local-agent-reviewer**](https://github.com/LeePepe/local-agent-reviewer) | AI-powered PR code review via local agent CLI and GitHub Actions |
-| [**LearningDemo**](https://github.com/LeePepe/LearningDemo) | — |
-| [**hello-world**](https://github.com/LeePepe/hello-world) | First Project |
-| [**elsa-core**](https://github.com/LeePepe/elsa-core) | A .NET Standard 2.0 Workflows Library |
-| [**DropIt**](https://github.com/LeePepe/DropIt) | — |
-| [**CPP**](https://github.com/LeePepe/CPP) | learn C++ with DS |
-| [**Concentration**](https://github.com/LeePepe/Concentration) | CS193P IOS Application Development Assignment I: Concentration |
-| [**Compiler**](https://github.com/LeePepe/Compiler) | learning Compiler |
-| [**Calculator**](https://github.com/LeePepe/Calculator) | Assignment 1 and 2 of CS193P IOS APPLICATION DEVELOPMENT of Stanford University in Spring 2016 |
-
----
-
-<div align="center">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=LeePepe&show_icons=true&theme=github_dark&hide_border=true&hide_title=true&count_private=true" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeePepe&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
-</div>
+<sub>Built with care. Shared in public.</sub>
