@@ -51,20 +51,20 @@ Public, non-fork repositories · default branches · non-merge commits
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,391 | +715,043 | −79,514 | 794,557 |
-| Agent | 238 | +112,418 | −28,500 | 140,918 |
-| Combined | 1,629 | +827,461 | −108,014 | 935,475 |
+| Agent | 242 | +113,258 | −28,855 | 142,113 |
+| Combined | 1,633 | +828,301 | −108,369 | 936,670 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,495 | +749,788 | −81,553 | 831,341 |
-| Agent | 238 | +112,418 | −28,500 | 140,918 |
-| Combined | 1,733 | +862,206 | −110,053 | 972,259 |
+| Agent | 242 | +113,258 | −28,855 | 142,113 |
+| Combined | 1,737 | +863,046 | −110,408 | 973,454 |
 
 </details>
 
-<sub>Updated 2026-10-19 22:27 UTC · 34 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
+<sub>Updated 2026-10-20 01:54 UTC · 35 repositories · Scheduled hourly (refresh/cache delays possible). GitHub author identity; unique commit SHAs; UTC author dates. Lines measure text churn (including docs/config), not current LOC; binaries excluded. Other automation accounts are not counted.</sub>
 <!-- human-agent-stats:end -->
 
 ---
@@ -73,10 +73,11 @@ Public, non-fork repositories · default branches · non-merge commits
 
 | project | description |
 |---|---|
-| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
 | [**user-skills**](https://github.com/LeePepe/user-skills) | General-purpose skills for CLI agents (Claude Code, Codex) |
-| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**agent-skills**](https://github.com/LeePepe/agent-skills) | Reusable Claude Code / Codex agent skills: workflow, repo engineering, design, research |
+| [**demoUI**](https://github.com/LeePepe/demoUI) | — |
+| [**LeePepe**](https://github.com/LeePepe/LeePepe) | — |
+| [**shared-telemetry**](https://github.com/LeePepe/shared-telemetry) | Shared local Loki + Grafana telemetry stack with Swift & Web SDKs |
 | [**VoxPocket**](https://github.com/LeePepe/VoxPocket) | — |
 | [**shared-ci**](https://github.com/LeePepe/shared-ci) | — |
 | [**shared-design-tokens**](https://github.com/LeePepe/shared-design-tokens) | Versioned cross-platform design tokens and native SwiftUI components for iOS and macOS |
