@@ -37,13 +37,13 @@ Human and agent activity, side by side. **[Explore days, repositories & pull req
 <a href="https://leepepe.github.io/LeePepe/">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile-activity-mobile.svg">
-  <img src="assets/profile-activity.svg" width="1000" alt="Public activity: 127 commits and 117 PRs opened in 7 days; 381 commits and 329 PRs opened in 30 days. Open the activity notebook for daily details.">
+  <img src="assets/profile-activity.svg" width="1000" alt="Public activity: 103 commits and 103 PRs opened in 7 days; 380 commits and 329 PRs opened in 30 days. Open the activity notebook for daily details.">
 </picture>
 </a>
 
-**Last 7 days:** 127 commits, 117 PRs opened · **Last 30 days:** 381 commits, 329 PRs opened<br>
+**Last 7 days:** 103 commits, 103 PRs opened · **Last 30 days:** 380 commits, 329 PRs opened<br>
 **365 days:** 1,340 human + 282 agent commits<br>
-<sub>Updated 2026-10-25 22:38:06 UTC · 34 public repositories · Snapshot 4b809b2b8ac2 · Refreshed hourly; scan and image-cache delays are possible.</sub>
+<sub>Updated 2026-10-26 01:17:28 UTC · 34 public repositories · Snapshot c4834cb6a97e · Refreshed hourly; scan and image-cache delays are possible.</sub>
 
 <details>
 <summary>Counting notes & year-to-date / all-time totals</summary>
