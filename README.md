@@ -43,7 +43,7 @@ Human and agent activity, side by side. **[Explore days, repositories & pull req
 
 **Last 7 days:** 357 commits, 109 PRs opened · **Last 30 days:** 754 commits, 466 PRs opened<br>
 **365 days:** 1,962 human + 310 agent commits<br>
-<sub>Updated 2026-11-15 17:49:32 UTC · 35 public repositories · Snapshot fb04410a2810 · Refreshed hourly; scan and image-cache delays are possible.</sub>
+<sub>Updated 2026-11-15 22:56:39 UTC · 35 public repositories · Snapshot d499a6b575ce · Refreshed hourly; scan and image-cache delays are possible.</sub>
 
 <details>
 <summary>Counting notes & year-to-date / all-time totals</summary>
