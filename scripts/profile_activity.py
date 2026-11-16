@@ -15,13 +15,23 @@ import subprocess
 import tempfile
 from urllib.parse import quote
 
-from profile_stats import END, START, GitHub, calendar_level, commit_actor, git, sum_numstat
+from profile_stats import (
+    END,
+    START,
+    GitHub,
+    calendar_level,
+    commit_actor,
+    git,
+    has_ai_coauthor_trailer,
+    sum_numstat,
+)
 
 
 SCHEMA_VERSION = 1
 OWNER_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9-]{0,38}\Z")
 REPO_PATTERN = re.compile(r"[A-Za-z0-9_.-]+\Z")
 SHA_PATTERN = re.compile(r"[0-9a-f]{40}\Z")
+SQUASH_PR_PATTERN = re.compile(r"\(#(\d+)\)")
 
 
 def utc(value):
@@ -99,6 +109,17 @@ def collect_repository(client, repo, identities, logins, now):
                                 "repositories": [repo["name"]], "title": title(commit["commit"].get("message")),
                                 "url": f"https://github.com/{repo['full_name']}/commit/{commit['sha']}",
                                 "additions": additions, "deletions": deletions})
+    agent_commit_shas = {commit["sha"] for commit, actor, _ in selected if actor == "agent"}
+    agent_pr_numbers = {
+        int(match)
+        for commit, actor, _ in selected
+        if actor == "agent"
+        for match in SQUASH_PR_PATTERN.findall(
+            str((commit.get("commit") or {}).get("message") or "").splitlines()[0]
+            if str((commit.get("commit") or {}).get("message") or "").splitlines()
+            else ""
+        )
+    }
     seen_prs = set()
     # No early date exit: all creation-date cohorts and all pages are collected.
     for pr in client.pages(f"repos/{repo['full_name']}/pulls", state="all", sort="created", direction="asc"):
@@ -112,6 +133,20 @@ def collect_repository(client, repo, identities, logins, now):
         actor = identities.get(login)
         if actor not in ("human", "agent"):
             continue
+        merge_sha = pr.get("merge_commit_sha")
+        head_sha = (pr.get("head") or {}).get("sha")
+        pr_text = f"{pr.get('title') or ''}\n{pr.get('body') or ''}"
+        pr_lower = pr_text.casefold()
+        if (
+            actor == "agent"
+            or merge_sha in agent_commit_shas
+            or head_sha in agent_commit_shas
+            or number in agent_pr_numbers
+            or has_ai_coauthor_trailer(pr_text)
+            or "leepepe-agent" in pr_lower
+            or "[bot]" in pr_lower
+        ):
+            actor = "agent"
         created = utc(pr["created_at"])
         if created > now:
             continue
