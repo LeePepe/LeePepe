@@ -152,11 +152,45 @@ def git(*args, cwd=None):
     ).stdout
 
 
+AI_TRAILER_PATTERN = (
+    "copilot",
+    "223556219+copilot@users.noreply.github.com",
+    "leepepe-agent[bot]",
+    "claude",
+    "anthropic.com",
+    "codex",
+    "openai",
+    "gemini",
+)
+
+
+def has_ai_coauthor_trailer(text):
+    for line in str(text or "").splitlines():
+        prefix, sep, rest = line.strip().partition(":")
+        if sep and prefix.strip().casefold() == "co-authored-by":
+            lowered = rest.casefold()
+            if any(marker in lowered for marker in AI_TRAILER_PATTERN):
+                return True
+    return False
+
+
 def commit_actor(commit, identities):
     if len(commit["parents"]) > 1:
         return None
     login = (commit.get("author") or {}).get("login", "").casefold()
-    return identities.get(login)
+    base = identities.get(login)
+    if base is None:
+        return None
+    agent_actor = next(
+        (value for value in identities.values() if value.casefold() == "agent"),
+        base,
+    )
+    if base == agent_actor:
+        return base
+    message = (commit.get("commit") or {}).get("message", "")
+    if has_ai_coauthor_trailer(message):
+        return agent_actor
+    return base
 
 
 def collect_repository(client, repo, identities, now):

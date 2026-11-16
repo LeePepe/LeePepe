@@ -100,6 +100,60 @@ class ActivityTests(unittest.TestCase):
         data = scan(Client(commits={"one": commits}))
         self.assertEqual([r["actor"] for r in data["records"]], ["human", "agent"])
 
+    def test_ai_coauthored_by_commits_and_associated_prs_attribute_to_agent(self):
+        c_human = commit(1, "person")
+        c_copilot = commit(2, "person")
+        c_copilot["commit"]["message"] = (
+            "feat: notebook redesign (#11)\n\n"
+            "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+        )
+        c_claude = commit(3, "person")
+        c_claude["commit"]["message"] = (
+            "fix: attribution\n\nCo-authored-by: Claude <noreply@anthropic.com>"
+        )
+        c_gemini = commit(4, "person")
+        c_gemini["commit"]["message"] = (
+            "chore: sync\n\n  co-authored-by: Gemini Code Assist <gemini@google.com>"
+        )
+        c_human_pair = commit(5, "person")
+        c_human_pair["commit"]["message"] = (
+            "docs: note\n\nCo-authored-by: Alice <alice@example.com>"
+        )
+        c_foreign_copilot = commit(6, "other")
+        c_foreign_copilot["commit"]["message"] = (
+            "feat: external\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"
+        )
+        pr_squash = pr(11, author="person", state="closed", merged="2026-10-20T03:00:00Z")
+        pr_merge_sha = pr(12, author="person", state="closed", merged="2026-10-20T03:00:00Z")
+        pr_merge_sha["merge_commit_sha"] = c_claude["sha"]
+        pr_head_sha = pr(13, author="person", state="open")
+        pr_head_sha["head"] = {"sha": c_gemini["sha"]}
+        pr_body_trailer = pr(14, author="person", state="open")
+        pr_body_trailer["body"] = "Summary\n\nCo-authored-by: OpenAI Codex <codex@openai.com>"
+        pr_human = pr(15, author="person", state="open")
+
+        data = scan(
+            Client(
+                commits={"one": [c_human, c_copilot, c_claude, c_gemini, c_human_pair, c_foreign_copilot]},
+                prs={"one": [pr_squash, pr_merge_sha, pr_head_sha, pr_body_trailer, pr_human]},
+            )
+        )
+        by_id = {r["id"]: r for r in data["records"]}
+        self.assertEqual(by_id[c_human["sha"]]["actor"], "human")
+        self.assertEqual(by_id[c_copilot["sha"]]["actor"], "agent")
+        self.assertEqual(by_id[c_copilot["sha"]]["author_login"], "helper[bot]")
+        self.assertEqual(by_id[c_claude["sha"]]["actor"], "agent")
+        self.assertEqual(by_id[c_gemini["sha"]]["actor"], "agent")
+        self.assertEqual(by_id[c_human_pair["sha"]]["actor"], "human")
+        self.assertNotIn(c_foreign_copilot["sha"], by_id)
+
+        self.assertEqual(by_id["person/one#11"]["actor"], "agent")
+        self.assertEqual(by_id["person/one#11"]["author_login"], "helper[bot]")
+        self.assertEqual(by_id["person/one#12"]["actor"], "agent")
+        self.assertEqual(by_id["person/one#13"]["actor"], "agent")
+        self.assertEqual(by_id["person/one#14"]["actor"], "agent")
+        self.assertEqual(by_id["person/one#15"]["actor"], "human")
+
     def test_utc_boundaries_future_and_window_dates(self):
         commits = [commit(1, date="2026-10-20T00:30:00+02:00"),
                    commit(2, date="2026-10-20T12:00:01Z"),

@@ -10,10 +10,15 @@ The complete [365-day table](../assets/activity-daily.md) works without JavaScri
 
 - Scope is owner-owned, publicly visible, non-fork repositories, including archives.
   Private repositories are never scanned. Browser code has no API token.
-- Human means GitHub-resolved commit **author** LeePepe; Agent means
-  leepepe-agent[bot]. Committer, pusher, display names and co-author trailers do
-  not determine attribution. Other authors, unresolved identities and automation
-  are excluded. PR authors use the same resolved GitHub logins.
+- Human means GitHub-resolved commit **author** LeePepe without an AI
+  `Co-authored-by:` trailer; Agent means leepepe-agent[bot] or an owner-authored
+  commit carrying an AI `Co-authored-by:` trailer (`copilot`,
+  `223556219+copilot@users.noreply.github.com`, `leepepe-agent[bot]`, `claude`,
+  `anthropic.com`, `codex`, `openai`, or `gemini`). Other authors, unresolved
+  identities and automation are excluded. PRs created by the owner or agent are
+  attributed to Agent when created by the agent login, when their
+  `merge_commit_sha`, `head.sha`, or squash commit `(#<pr_number>)` is an Agent
+  commit, or when the PR title/body carries an AI `Co-authored-by:` trailer.
 - Commits are reachable from each repository's default branch at its pinned head.
   Merge commits are excluded. A squash merge contributes its resulting commit.
   Each SHA counts once globally; its membership in every eligible repository is
