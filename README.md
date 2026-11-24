@@ -37,13 +37,13 @@ Human and agent activity, side by side. **[Explore days, repositories & pull req
 <a href="https://leepepe.github.io/LeePepe/">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile-activity-mobile.svg">
-  <img src="assets/profile-activity.svg" width="1000" alt="Public activity: 109 commits and 94 PRs opened in 7 days; 775 commits and 468 PRs opened in 30 days. Open the activity notebook for daily details.">
+  <img src="assets/profile-activity.svg" width="1000" alt="Public activity: 113 commits and 100 PRs opened in 7 days; 779 commits and 474 PRs opened in 30 days. Open the activity notebook for daily details.">
 </picture>
 </a>
 
-**Last 7 days:** 109 commits, 94 PRs opened · **Last 30 days:** 775 commits, 468 PRs opened<br>
-**365 days:** 1,343 human + 1,109 agent commits<br>
-<sub>Updated 2026-11-24 02:18:15 UTC · 35 public repositories · Snapshot 81e4b3756c1c · Refreshed hourly; scan and image-cache delays are possible.</sub>
+**Last 7 days:** 113 commits, 100 PRs opened · **Last 30 days:** 779 commits, 474 PRs opened<br>
+**365 days:** 1,343 human + 1,113 agent commits<br>
+<sub>Updated 2026-11-24 13:55:17 UTC · 35 public repositories · Snapshot 20ed738e34f5 · Refreshed hourly; scan and image-cache delays are possible.</sub>
 
 <details>
 <summary>Counting notes & year-to-date / all-time totals</summary>
@@ -53,16 +53,16 @@ Human and agent activity, side by side. **[Explore days, repositories & pull req
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,341 | +649,942 | −124,771 | 774,713 |
-| Agent | 1,109 | +671,642 | −414,740 | 1,086,382 |
-| Combined | 2,450 | +1,321,584 | −539,511 | 1,861,095 |
+| Agent | 1,113 | +678,335 | −415,606 | 1,093,941 |
+| Combined | 2,454 | +1,328,277 | −540,377 | 1,868,654 |
 
 **All time**
 
 | Author | Commits | Lines added | Lines deleted | Lines changed |
 |:--|--:|--:|--:|--:|
 | Human | 1,445 | +684,687 | −126,810 | 811,497 |
-| Agent | 1,109 | +671,642 | −414,740 | 1,086,382 |
-| Combined | 2,554 | +1,356,329 | −541,550 | 1,897,879 |
+| Agent | 1,113 | +678,335 | −415,606 | 1,093,941 |
+| Combined | 2,558 | +1,363,022 | −542,416 | 1,905,438 |
 
 Owner-owned public, non-fork repositories, including archives. Human = LeePepe; Agent = leepepe-agent[bot]. Other authors and automation are excluded. Unique non-merge default-branch commits use UTC author dates; PRs use UTC creation dates. Merged/open/closed-unmerged figures describe the PR creation-date cohort's current states, not period merge events. Future dates are excluded.
 
